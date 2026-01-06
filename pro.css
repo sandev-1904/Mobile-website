@@ -1,0 +1,200 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color:#B9B2A8;
+}
+.topofpage{
+  display:block;
+  background-color: white;
+  padding: 20px;
+}
+
+.com{
+}
+
+p{
+  display: inline;
+
+
+}
+.readmore{
+  padding-left: 50px;
+  padding-right:30px;
+}
+.readmore:hover{
+  color: blue;
+}
+  .edit{
+  font-size: 20px;
+  display: inline-block;
+  background-color: black;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  
+}
+.edit:hover{
+  background-color: blue;
+  transition: 0.5s;
+}
+.headernav{
+  display:block;
+  float: right;
+}
+li{
+  display: inline-block;
+  padding: 25px;
+  font-size:20px;
+}
+.na{
+  color: black;
+  text-decoration: none;
+}
+.headname {
+    display:block;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 200px;
+    font-weight: 200px;
+    letter-spacing: 10px;
+    text-align: center;
+  }
+  .product{
+    display: inline-block;
+    height:500px ;
+  }
+
+  .para1{
+    display:inline-block;
+    height: 500px;
+    width: 350px;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top:-280px;
+    text-align: left;
+  }
+
+  img{
+    display: inline-block;
+    padding: 20px;
+  }
+  .bookappoint{
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px 30px;
+  border: solid black 1px;
+  color:black;
+  }
+  .bookappoint:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+  }
+   .booknow{
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px 30px;
+  border: solid white 1px;
+  color:white;
+  }
+  .booknow:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+  }
+  h1{
+    display: inline-block;
+    padding: 50px; 
+    font-family: 'Cinzel', serif;
+    font-size: 72px;
+    font-weight: 5;
+
+  }
+  .booktop{
+    color: white;
+  }
+
+  .content-section {
+    display: inline-block ;
+      color: white;
+      justify-content: center; 
+      text-align: center;
+    }
+
+    .content h2 a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .content h2 a:hover {
+      color: #ccc;
+      
+    }
+
+    .content p {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 30px;
+      background-color: #f2f2f2;
+      color: black;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .btn:hover {
+      
+      text-decoration: underline;
+    }
+    .content{
+      position: relative;
+      font-size: 20px;
+      top: -200px;
+      right: -200px;
+
+    }
+    .photo6 img{
+      width: 280px;
+      height: 400px;
+      padding-left: 80px;
+      padding-top: 200px;
+    }
+    .photo6{
+      display: inline-block;
+    }
+    .story{
+      display: inline-block;
+      width: 800px; 
+      padding-left: 80px;
+      position: relative;
+    }
+
+    .story p{
+      position: absolute;
+      bottom:310px;
+      left: 90px;
+     
+    }
+    .story h2{
+      position: absolute;
+      bottom: 500px;
+      left: 90px;
+    }
+    .story a{
+      position: absolute;
+      bottom: 210px;
+      left: 90px;
+    }
