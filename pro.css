@@ -1,200 +1,482 @@
-
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
 
-body{
-  background-color:#B9B2A8;
+body {
+  background-color: #B9B2A8;
 }
-.topofpage{
-  display:block;
+
+.topofpage {
+  display: block;
   background-color: white;
   padding: 20px;
 }
 
-.com{
-}
+.com {}
 
-p{
+p {
   display: inline;
 
 
 }
-.readmore{
+
+.readmore {
   padding-left: 50px;
-  padding-right:30px;
+  padding-right: 30px;
 }
-.readmore:hover{
+
+.readmore:hover {
   color: blue;
 }
-  .edit{
+
+.edit {
   font-size: 20px;
   display: inline-block;
   background-color: black;
   padding: 10px 30px;
   border-radius: 5px;
   color: white;
-  
+
 }
-.edit:hover{
+
+.edit:hover {
   background-color: blue;
   transition: 0.5s;
 }
-.headernav{
-  display:block;
+
+.headernav {
+  display: block;
   float: right;
 }
-li{
+
+li {
   display: inline-block;
   padding: 25px;
-  font-size:20px;
+  font-size: 20px;
 }
-.na{
+
+.na {
   color: black;
   text-decoration: none;
 }
+
 .headname {
-    display:block;
-    padding-left: 50px;
-    padding-right: 50px;
-    font-family: 'Playfair Display', serif;
-    font-size: 200px;
-    font-weight: 200px;
-    letter-spacing: 10px;
-    text-align: center;
-  }
-  .product{
-    display: inline-block;
-    height:500px ;
-  }
+  display: block;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: 200px;
+  font-weight: 200px;
+  letter-spacing: 10px;
+  text-align: center;
+}
 
-  .para1{
-    display:inline-block;
-    height: 500px;
-    width: 350px;
-    padding: 50px;
-    font-size: 30px;
-    text-align: center;
-    position: relative;
-    top:-280px;
-    text-align: left;
-  }
+.product {
+  display: inline-block;
+  height: 500px;
+}
 
-  img{
-    display: inline-block;
-    padding: 20px;
-  }
-  .bookappoint{
+.para1 {
+  display: inline-block;
+  height: 500px;
+  width: 350px;
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: -280px;
+  text-align: left;
+}
+
+.img {
+  display: inline-block;
+  padding: 20px;
+}
+
+.bookappoint {
   text-decoration: none;
   font-size: 20px;
   display: inline-block;
   padding: 10px 30px;
   border: solid black 1px;
-  color:black;
-  }
-  .bookappoint:hover{
-    background-color: black;
-    color: white;
-    transition: 0.5s;
-  }
-   .booknow{
+  color: black;
+}
+
+.bookappoint:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.booknow {
   text-decoration: none;
   font-size: 20px;
   display: inline-block;
   padding: 10px 30px;
   border: solid white 1px;
-  color:white;
-  }
-  .booknow:hover{
-    background-color: white;
-    color: black;
-    transition: 0.5s;
-  }
-  h1{
-    display: inline-block;
-    padding: 50px; 
-    font-family: 'Cinzel', serif;
-    font-size: 72px;
-    font-weight: 5;
+  color: white;
+}
 
-  }
-  .booktop{
-    color: white;
-  }
+.booknow:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
 
-  .content-section {
-    display: inline-block ;
-      color: white;
-      justify-content: center; 
-      text-align: center;
-    }
+.online {
+  display: inline-block;
+  padding: 50px;
+  font-family: 'Cinzel', serif;
+  font-size: 72px;
+  font-weight: 5;
 
-    .content h2 a {
-      color: white;
-      text-decoration: none;
-    }
+}
 
-    .content h2 a:hover {
-      color: #ccc;
-      
-    }
+.booktop {
+  color: white;
+}
 
-    .content p {
-      margin: 10px 0;
-      font-size: 18px;
-    }
+.abouth {
+  display: block;
+  padding: 60px;
+  font-family: 'Cinzel', serif;
+  font-size: 72px;
+  font-weight: 5;
 
-    .btn {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 12px 30px;
-      background-color: #f2f2f2;
-      color: black;
-      text-decoration: none;
-      font-size: 16px;
-    }
+}
 
-    .btn:hover {
-      
-      text-decoration: underline;
-    }
-    .content{
-      position: relative;
-      font-size: 20px;
-      top: -200px;
-      right: -200px;
 
-    }
-    .photo6 img{
-      width: 280px;
-      height: 400px;
-      padding-left: 80px;
-      padding-top: 200px;
-    }
-    .photo6{
-      display: inline-block;
-    }
-    .story{
-      display: inline-block;
-      width: 800px; 
-      padding-left: 80px;
-      position: relative;
-    }
 
-    .story p{
-      position: absolute;
-      bottom:310px;
-      left: 90px;
-     
-    }
-    .story h2{
-      position: absolute;
-      bottom: 500px;
-      left: 90px;
-    }
-    .story a{
-      position: absolute;
-      bottom: 210px;
-      left: 90px;
-    }
+.content-section {
+  display: inline-block;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+.content h2 a {
+  color: white;
+  text-decoration: none;
+}
+
+.content h2 a:hover {
+  color: #ccc;
+
+}
+
+.content p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 30px;
+  background-color: #f2f2f2;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.btn:hover {
+
+  text-decoration: underline;
+}
+
+.content {
+  position: relative;
+  font-size: 20px;
+  top: -200px;
+  right: -200px;
+
+}
+
+.photo6 img {
+  width: 280px;
+  height: 400px;
+  padding-left: 80px;
+  padding-top: 200px;
+}
+
+.photo6 {
+  display: inline-block;
+}
+
+.story {
+  display: inline-block;
+  width: 800px;
+  padding-left: 80px;
+  position: relative;
+}
+
+.story p {
+  position: absolute;
+  bottom: 310px;
+  left: 90px;
+
+}
+
+.story h2 {
+  position: absolute;
+  bottom: 500px;
+  left: 90px;
+}
+
+.story a {
+  position: absolute;
+  bottom: 210px;
+  left: 90px;
+}
+
+.services {
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  padding: 100px;
+}
+
+.viewAll {
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px 30px;
+  border: solid black 1px;
+  color: black;
+}
+
+.viewAll:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+
+.galleryh {
+  display: block;
+  padding: 40px;
+  font-family: 'Cinzel', serif;
+  font-size: 72px;
+  font-weight: 5;
+
+}
+
+.hairoil {
+  opacity: 0.8;
+  height: 400px;
+  width: 620px;
+  margin: 22px;
+}
+
+.hairoil:hover {
+  opacity: 1;
+  box-shadow: black 5px 5px 15px;
+}
+
+.knife {
+  opacity: 0.8;
+  height: 400px;
+  width: 620px;
+  margin: 22px;
+
+}
+
+.knife:hover {
+  opacity: 1;
+  box-shadow: black 5px 5px 15px;
+}
+
+.saloonstore {
+  opacity: 0.8;
+  height: 600px;
+  width: 1285px;
+  margin: 24px;
+}
+
+.saloonstore:hover {
+  opacity: 1;
+  box-shadow: black 5px 5px 15px;
+}
+
+.beardcut {
+  opacity: 0.5;
+  height: 300px;
+  width: 500px;
+  margin: 22px;
+  position: absolute;
+  top: 1284px;
+  right: 780px;
+  margin-bottom: 20px;
+}
+
+.beardcut:hover {
+  opacity: 1;
+  box-shadow: black 5px 5px 15px;
+}
+
+.waiting {
+  opacity: 0.8;
+  height: 400px;
+  width: 700px;
+  margin: 22px;
+  position: absolute;
+  top: 1284px;
+  left: 590px;
+}
+
+.waiting:hover {
+  opacity: 1;
+  box-shadow: black 5px 5px 15px;
+}
+
+
+.singlechair {
+  opacity: 0.8;
+  height: 300px;
+  width: 500px;
+  margin: 22px;
+  position: absolute;
+  top: 1600px;
+  right: 780px;
+}
+
+.singlechair:hover {
+  opacity: 1;
+  box-shadow: black 5px 5px 15px;
+}
+
+.stat {
+  opacity: 0.8;
+  height: 200px;
+  width: 330px;
+  margin: 22px;
+  position: absolute;
+  top: 1700px;
+  left: 590px;
+}
+
+.stat:hover {
+  opacity: 1;
+  box-shadow: black 5px 5px 15px;
+}
+
+.scissor {
+  opacity: 0.8;
+  height: 200px;
+  width: 330px;
+  margin: 22px;
+  position: absolute;
+  top: 1700px;
+  left: 960px;
+}
+
+.scissor:hover {
+  opacity: 1;
+  box-shadow: black 5px 5px 15px;
+}
+
+.conta {
+  margin-top: 700px;
+  background-color: black;
+  color: white;
+}
+
+.contact {
+  display: block;
+  padding: 40px;
+  font-family: 'Cinzel', serif;
+  font-size: 72px;
+  font-weight: 5;
+
+}
+
+.contactp {
+  font-size: 20px;
+
+
+
+}
+
+.contactinfo {
+  padding: 50px;
+  max-width: 500px;
+  margin: auto;
+  position: absolute;
+}
+
+.contform {
+  padding-top: 50px;
+  margin: auto;
+}
+
+.contform input {
+  background-color: black;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid rgb(122, 121, 121);
+  color: white;
+
+}
+
+.message-box {
+  width: 100%;
+  height: 80px;
+  padding: 12px;
+  background: black;
+  border: 1px solid rgb(122, 121, 121);
+  color: white;
+  font-size: 14px;
+  line-height: 1.5;
+  resize: none;
+  outline: none;
+}
+
+.contform input:hover {
+  border: 1px solid white;
+}
+
+.message-box:hover {
+  border: 1px solid white;
+}
+
+.subbtn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 40px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.subbtn:hover {
+  background-color: rgb(122, 121, 121);
+  color: black;
+  transition: 0.5s;
+}
+
+.cuptea {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  left: 940px;
+  top: -670px;
+}
+
+.conttot {
+  position: relative;
+  left: 300px;
+  top: 30px
+}
+.lastmail{
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  width: 300px;
+   height: 30px;
+}
